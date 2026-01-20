@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ActWitty Learnings LLP - Joyful Learning for Kids</title>
+    <meta name="description" content="Educational publishing, learning materials, digital learning, and design & content development for children, parents, and educational institutions.">
+    <meta name="keywords" content="educational books, learning materials, e-learning, educational toys, teaching materials">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+</head>
+<body>
+    <!-- Skip Link for Accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">A</div>
+                <span>ActWitty Learnings LLP</span>
+            </a>
+
+            <nav class="nav">
+                <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <ul class="nav-list" id="nav-list">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="pages/washable-books.html" class="nav-link">Washable Books</a></li>
+                    <li><a href="pages/write-wipe-books.html" class="nav-link">Write & Wipe Books</a></li>
+                    <li><a href="pages/educational-toys.html" class="nav-link">Educational Toys</a></li>
+                    <li><a href="pages/teaching-materials.html" class="nav-link">Teaching & Learning Material</a></li>
+                    <li><a href="pages/e-learning.html" class="nav-link">E-Learning</a></li>
+                    <li><a href="pages/design-development.html" class="nav-link">Design & Development</a></li>
+                    <li><a href="pages/content-rights.html" class="nav-link">Content Rights Sale</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero-section section" style="background: linear-gradient(135deg, var(--secondary-blue), var(--secondary-yellow)); position: relative; overflow: hidden;">
+            <div class="container">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--spacing-xxl); align-items: center; min-height: 70vh;">
+                    <div class="hero-content">
+                        <h1 style="color: var(--darker-gray); margin-bottom: var(--spacing-md);">
+                            Making Learning <span style="color: var(--primary-pink);">Fun</span> & <span style="color: var(--primary-blue);">Interactive</span> for Every Child!
+                        </h1>
+                        <p style="font-size: 1.25rem; color: var(--dark-gray); margin-bottom: var(--spacing-xl); line-height: 1.6;">
+                            At ActWitty Learnings LLP, we believe in transforming education through innovative publishing,
+                            engaging learning materials, and cutting-edge digital solutions that inspire young minds to explore, learn, and grow.
+                        </p>
+                        <div style="display: flex; gap: var(--spacing-md); flex-wrap: wrap;">
+                            <a href="#services" class="btn btn-primary">
+                                <i class="fas fa-compass" style="margin-right: var(--spacing-sm);"></i>
+                                Explore Our Products
+                            </a>
+                            <a href="pages/e-learning.html" class="btn btn-secondary">
+                                <i class="fas fa-graduation-cap" style="margin-right: var(--spacing-sm);"></i>
+                                Learn With Us
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hero-image" style="position: relative;">
+                        <div style="width: 100%; height: 400px; background: linear-gradient(135deg, var(--primary-green), var(--primary-purple)); border-radius: var(--border-radius-xl); display: flex; align-items: center; justify-content: center; box-shadow: var(--shadow-lg);">
+                            <div style="text-align: center; color: white;">
+                                <i class="fas fa-book-open" style="font-size: 4rem; margin-bottom: var(--spacing-md); opacity: 0.8;"></i>
+                                <h3 style="margin: 0;">Interactive Learning</h3>
+                                <p style="margin: var(--spacing-sm) 0 0 0; opacity: 0.9;">Fun & Educational Content</p>
+                            </div>
+                        </div>
+                        <!-- Floating elements for visual appeal -->
+                        <div style="position: absolute; top: -20px; right: -20px; width: 60px; height: 60px; background: var(--primary-yellow); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: var(--shadow-md); animation: float 3s ease-in-out infinite;">
+                            <i class="fas fa-star" style="color: white; font-size: 1.5rem;"></i>
+                        </div>
+                        <div style="position: absolute; bottom: -15px; left: -15px; width: 50px; height: 50px; background: var(--primary-pink); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: var(--shadow-md); animation: float 4s ease-in-out infinite reverse;">
+                            <i class="fas fa-heart" style="color: white; font-size: 1.2rem;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Background decorative elements -->
+            <div style="position: absolute; top: 10%; left: 5%; width: 80px; height: 80px; background: rgba(74, 144, 226, 0.1); border-radius: 50%; animation: pulse 4s ease-in-out infinite;"></div>
+            <div style="position: absolute; bottom: 15%; right: 10%; width: 60px; height: 60px; background: rgba(245, 166, 35, 0.1); border-radius: 50%; animation: pulse 3s ease-in-out infinite reverse;"></div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section section" style="background: var(--white);">
+            <div class="container">
+                <div style="text-align: center; margin-bottom: var(--spacing-xxl);">
+                    <h2 style="color: var(--darker-gray);">
+                        What We <span style="color: var(--primary-blue);">Do</span>
+                    </h2>
+                    <p style="font-size: 1.1rem; color: var(--dark-gray); max-width: 600px; margin: 0 auto;">
+                        We create comprehensive educational solutions that combine traditional learning with modern technology
+                        to provide engaging experiences for children, parents, and educational institutions.
+                    </p>
+                </div>
+
+                <div class="grid grid-2" style="gap: var(--spacing-xl);">
+                    <div class="about-card" style="background: linear-gradient(135deg, var(--secondary-blue), var(--secondary-green)); padding: var(--spacing-xl); border-radius: var(--border-radius-lg); box-shadow: var(--shadow-md);">
+                        <div style="display: flex; align-items: center; margin-bottom: var(--spacing-md);">
+                            <div style="width: 60px; height: 60px; background: var(--primary-blue); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: var(--spacing-md);">
+                                <i class="fas fa-book" style="color: white; font-size: 1.5rem;"></i>
+                            </div>
+                            <h3 style="color: var(--darker-gray); margin: 0;">Educational Publishing</h3>
+                        </div>
+                        <p style="color: var(--dark-gray); line-height: 1.6;">
+                            Creating innovative books and educational content that makes learning enjoyable and effective.
+                            Our publications include washable books, write & wipe books, and comprehensive educational materials.
+                        </p>
+                    </div>
+
+                    <div class="about-card" style="background: linear-gradient(135deg, var(--secondary-yellow), var(--secondary-pink)); padding: var(--spacing-xl); border-radius: var(--border-radius-lg); box-shadow: var(--shadow-md);">
+                        <div style="display: flex; align-items: center; margin-bottom: var(--spacing-md);">
+                            <div style="width: 60px; height: 60px; background: var(--primary-yellow); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: var(--spacing-md);">
+                                <i class="fas fa-tools" style="color: white; font-size: 1.5rem;"></i>
+                            </div>
+                            <h3 style="color: var(--darker-gray); margin: 0;">Learning Materials</h3>
+                        </div>
+                        <p style="color: var(--dark-gray); line-height: 1.6;">
+                            Developing high-quality educational toys and teaching materials that enhance learning through play.
+                            Our products are designed to stimulate creativity and cognitive development in children.
+                        </p>
+                    </div>
+
+                    <div class="about-card" style="background: linear-gradient(135deg, var(--secondary-purple), var(--secondary-blue)); padding: var(--spacing-xl); border-radius: var(--border-radius-lg); box-shadow: var(--shadow-md);">
+                        <div style="display: flex; align-items: center; margin-bottom: var(--spacing-md);">
+                            <div style="width: 60px; height: 60px; background: var(--primary-purple); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: var(--spacing-md);">
+                                <i class="fas fa-laptop" style="color: white; font-size: 1.5rem;"></i>
+                            </div>
+                            <h3 style="color: var(--darker-gray); margin: 0;">Digital Learning</h3>
+                        </div>
+                        <p style="color: var(--dark-gray); line-height: 1.6;">
+                            Offering cutting-edge e-learning solutions, interactive digital content, and online educational platforms
+                            that make learning accessible anytime, anywhere for modern learners.
+                        </p>
+                    </div>
+
+                    <div class="about-card" style="background: linear-gradient(135deg, var(--secondary-green), var(--secondary-yellow)); padding: var(--spacing-xl); border-radius: var(--border-radius-lg); box-shadow: var(--shadow-md);">
+                        <div style="display: flex; align-items: center; margin-bottom: var(--spacing-md);">
+                            <div style="width: 60px; height: 60px; background: var(--primary-green); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: var(--spacing-md);">
+                                <i class="fas fa-palette" style="color: white; font-size: 1.5rem;"></i>
+                            </div>
+                            <h3 style="color: var(--darker-gray); margin: 0;">Design & Content Development</h3>
+                        </div>
+                        <p style="color: var(--dark-gray); line-height: 1.6;">
+                            Providing comprehensive design services, content development, and educational technology solutions
+                            tailored to meet the unique needs of publishers, institutions, and educational organizations.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Overview Section -->
+        <section id="services" class="services-section section" style="background: var(--light-gray);">
+            <div class="container">
+                <div style="text-align: center; margin-bottom: var(--spacing-xxl);">
+                    <h2 style="color: var(--darker-gray);">
+                        Our <span style="color: var(--primary-green);">Services</span> & <span style="color: var(--primary-pink);">Products</span>
+                    </h2>
+                    <p style="font-size: 1.1rem; color: var(--dark-gray); max-width: 700px; margin: 0 auto;">
+                        Discover our comprehensive range of educational products and services designed to create
+                        joyful learning experiences for children, families, and educational institutions.
+                    </p>
+                </div>
+
+                <div class="grid grid-2" style="gap: var(--spacing-xl);">
+                    <!-- Books Card -->
+                    <div class="card" style="cursor: pointer;" onclick="window.location.href='pages/washable-books.html'">
+                        <div style="width: 100%; height: 250px; background: linear-gradient(135deg, var(--primary-blue), var(--primary-purple)); border-radius: var(--border-radius-lg) var(--border-radius-lg) 0 0; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-book-open" style="font-size: 4rem; color: white;"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title" style="color: var(--primary-blue);">Educational Books</h3>
+                            <p class="card-description">
+                                Explore our collection of washable books and write & wipe books designed for interactive learning.
+                                Perfect for young children to develop essential skills through play and exploration.
+                            </p>
+                            <div style="margin-top: var(--spacing-md);">
+                                <span style="background: var(--secondary-blue); color: var(--primary-blue); padding: var(--spacing-xs) var(--spacing-sm); border-radius: var(--border-radius-sm); font-size: 0.85rem; font-weight: 600;">13+ Titles Available</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Toys Card -->
+                    <div class="card" style="cursor: pointer;" onclick="window.location.href='pages/educational-toys.html'">
+                        <div style="width: 100%; height: 250px; background: linear-gradient(135deg, var(--primary-green), var(--primary-yellow)); border-radius: var(--border-radius-lg) var(--border-radius-lg) 0 0; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-puzzle-piece" style="font-size: 4rem; color: white;"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title" style="color: var(--primary-green);">Educational Toys</h3>
+                            <p class="card-description">
+                                Discover our range of educational toys that combine fun with learning. Each toy is carefully
+                                designed to enhance cognitive skills, creativity, and problem-solving abilities in children.
+                            </p>
+                            <div style="margin-top: var(--spacing-md);">
+                                <span style="background: var(--secondary-green); color: var(--primary-green); padding: var(--spacing-xs) var(--spacing-sm); border-radius: var(--border-radius-sm); font-size: 0.85rem; font-weight: 600;">Learning Through Play</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Digital Learning Card -->
+                    <div class="card" style="cursor: pointer;" onclick="window.location.href='pages/e-learning.html'">
+                        <div style="width: 100%; height: 250px; background: linear-gradient(135deg, var(--primary-purple), var(--primary-pink)); border-radius: var(--border-radius-lg) var(--border-radius-lg) 0 0; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-laptop-code" style="font-size: 4rem; color: white;"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title" style="color: var(--primary-purple);">Digital Learning</h3>
+                            <p class="card-description">
+                                Experience our innovative e-learning platform with interactive courses, educational videos,
+                                and digital content designed to make online learning engaging and effective for modern education.
+                            </p>
+                            <div style="margin-top: var(--spacing-md);">
+                                <span style="background: var(--secondary-purple); color: var(--primary-purple); padding: var(--spacing-xs) var(--spacing-sm); border-radius: var(--border-radius-sm); font-size: 0.85rem; font-weight: 600;">Interactive Online Courses</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Creative Services Card -->
+                    <div class="card" style="cursor: pointer;" onclick="window.location.href='pages/design-development.html'">
+                        <div style="width: 100%; height: 250px; background: linear-gradient(135deg, var(--primary-yellow), var(--primary-blue)); border-radius: var(--border-radius-lg) var(--border-radius-lg) 0 0; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-lightbulb" style="font-size: 4rem; color: white;"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title" style="color: var(--primary-yellow); color: var(--darker-gray);">Creative Services</h3>
+                            <p class="card-description">
+                                From book design and graphic design to AR/VR content development and LMS services,
+                                we provide comprehensive creative solutions for educational content and technology needs.
+                            </p>
+                            <div style="margin-top: var(--spacing-md);">
+                                <span style="background: var(--secondary-yellow); color: var(--darker-gray); padding: var(--spacing-xs) var(--spacing-sm); border-radius: var(--border-radius-sm); font-size: 0.85rem; font-weight: 600;">End-to-End Solutions</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Call to Action -->
+                <div style="text-align: center; margin-top: var(--spacing-xxl); padding: var(--spacing-xl); background: linear-gradient(135deg, var(--primary-blue), var(--primary-purple)); border-radius: var(--border-radius-lg); box-shadow: var(--shadow-lg);">
+                    <h3 style="color: white; margin-bottom: var(--spacing-md);">Ready to Transform Learning?</h3>
+                    <p style="color: rgba(255, 255, 255, 0.9); margin-bottom: var(--spacing-lg); font-size: 1.1rem;">
+                        Join thousands of parents, teachers, and institutions who trust ActWitty Learnings LLP
+                        for quality educational solutions.
+                    </p>
+                    <div style="display: flex; gap: var(--spacing-md); justify-content: center; flex-wrap: wrap;">
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-envelope" style="margin-right: var(--spacing-sm);"></i>
+                            Get In Touch
+                        </a>
+                        <a href="pages/content-rights.html" class="btn" style="background: rgba(255, 255, 255, 0.2); color: white; border: 2px solid rgba(255, 255, 255, 0.3);">
+                            <i class="fas fa-handshake" style="margin-right: var(--spacing-sm);"></i>
+                            Partner With Us
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="footer-logo-icon">A</div>
+                        <span>ActWitty Learnings LLP</span>
+                    </div>
+                    <p class="footer-description">
+                        Empowering young minds through innovative educational solutions.
+                        Creating joyful learning experiences for children, parents, and educators worldwide.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="pages/washable-books.html">Washable Books</a></li>
+                        <li><a href="pages/write-wipe-books.html">Write & Wipe Books</a></li>
+                        <li><a href="pages/educational-toys.html">Educational Toys</a></li>
+                        <li><a href="pages/teaching-materials.html">Teaching Materials</a></li>
+                        <li><a href="pages/e-learning.html">E-Learning</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="pages/design-development.html">Design & Development</a></li>
+                        <li><a href="pages/content-rights.html">Content Rights Sale</a></li>
+                        <li><a href="#custom-publishing">Custom Publishing</a></li>
+                        <li><a href="#educational-consulting">Educational Consulting</a></li>
+                        <li><a href="#digital-solutions">Digital Solutions</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 9810989818</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 9717991762</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>actwitty.in@gmail.com</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>204 Supreme enclave Mayur Vihar Phase 1 Delhi 110091 India</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Mon - Sat: 9:00 AM - 6:00 PM</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>
+                    &copy; 2025 ActWitty Learnings LLP. All rights reserved. |
+                    <a href="#privacy-policy">Privacy Policy</a> |
+                    <a href="#terms-of-service">Terms of Service</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- Additional CSS for Home Page Animations -->
+    <style>
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 0.7; }
+            50% { transform: scale(1.1); opacity: 1; }
+        }
+
+        .hero-section {
+            position: relative;
+        }
+
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="20" cy="20" r="2" fill="rgba(74,144,226,0.1)"/><circle cx="80" cy="40" r="1.5" fill="rgba(245,166,35,0.1)"/><circle cx="40" cy="80" r="1" fill="rgba(208,2,27,0.1)"/></svg>') repeat;
+            pointer-events: none;
+        }
+
+        @media (max-width: 768px) {
+            .hero-content {
+                grid-column: 1 / -1;
+                text-align: center;
+                margin-bottom: var(--spacing-xl);
+            }
+
+            .hero-image {
+                grid-column: 1 / -1;
+            }
+        }
+    </style>
+</body>
+</html>

@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Toys - ActWitty Learnings LLP</title>
+    <meta name="description" content="Explore our collection of educational toys designed to make learning fun and engaging for children.">
+    <meta name="keywords" content="educational toys, learning toys, children's toys, educational games">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="../assets/images/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/animations.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header-container">
+            <a href="../index.html" class="logo">
+                <div class="logo-icon">A</div>
+                <span>ActWitty Learnings LLP</span>
+            </a>
+
+            <nav class="nav">
+                <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <ul class="nav-list" id="nav-list">
+                    <li><a href="../index.html" class="nav-link">Home</a></li>
+                    <li><a href="washable-books.html" class="nav-link">Washable Books</a></li>
+                    <li><a href="write-wipe-books.html" class="nav-link">Write & Wipe Books</a></li>
+                    <li><a href="educational-toys.html" class="nav-link active">Educational Toys</a></li>
+                    <li><a href="teaching-materials.html" class="nav-link">Teaching & Learning Material</a></li>
+                    <li><a href="e-learning.html" class="nav-link">E-Learning</a></li>
+                    <li><a href="design-development.html" class="nav-link">Design & Development</a></li>
+                    <li><a href="content-rights.html" class="nav-link">Content Rights Sale</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Page Header -->
+        <section class="page-header section" style="background: linear-gradient(135deg, var(--primary-green), var(--primary-yellow)); color: white; text-align: center;">
+            <div class="container">
+                <h1 style="margin-bottom: var(--spacing-md);">
+                    <i class="fas fa-puzzle-piece" style="margin-right: var(--spacing-md);"></i>
+                    Educational Toys
+                </h1>
+                <p style="font-size: 1.2rem; max-width: 600px; margin: 0 auto; opacity: 0.9;">
+                    Discover our curated collection of educational toys that combine fun with learning.
+                    Each toy is carefully selected to enhance cognitive development and creativity.
+                </p>
+            </div>
+        </section>
+
+        <!-- Featured Toys Carousel -->
+        <section class="toys-carousel section" style="background: var(--white);">
+            <div class="container">
+                <h2 style="text-align: center; color: var(--darker-gray); margin-bottom: var(--spacing-xl);">
+                    Featured Educational Toys
+                </h2>
+
+                <div class="carousel-container" style="position: relative; overflow: hidden;">
+                    <div class="carousel-track" id="carousel-track" style="display: flex; gap: var(--spacing-lg); transition: transform 0.3s ease; width: max-content;">
+                        <!-- Toy 1 -->
+                        <div class="card toy-card" style="min-width: 280px;">
+                            <div class="card-image" style="background: linear-gradient(135deg, var(--primary-blue), var(--secondary-blue)); display: flex; align-items: center; justify-content: center; height: 200px;">
+                                <i class="fas fa-cubes" style="font-size: 4rem; color: white;"></i>
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title">Building Block Sets</h3>
+                                <p class="card-description">
+                                    Encourages spatial reasoning, creativity, and problem-solving skills through construction and imaginative play.
+                                </p>
+                                <div style="margin-top: var(--spacing-sm);">
+                                    <span style="background: var(--secondary-blue); color: var(--primary-blue); padding: var(--spacing-xs) var(--spacing-sm); border-radius: var(--border-radius-sm); font-size: 0.8rem; font-weight: 600;">STEM Learning</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Toy 2 -->
+                        <div class="card toy-card" style="min-width: 280px;">
+                            <div class="card-image" style="background: linear-gradient(135deg, var(--primary-green), var(--secondary-green)); display: flex; align-items: center; justify-content: center; height: 200px;">
+                                <i class="fas fa-robot" style="font-size: 4rem; color: white;"></i>
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title">Coding Robots</h3>
+                                <p class="card-description">
+                                    Introduces basic programming concepts through interactive robot building and command sequencing activities.
+                                </p>
+                                <div style="margin-top: var(--spacing-sm);">
+                                    <span style="background: var(--secondary-green); color: var(--primary-green); padding: var(--spacing-xs) var(--spacing-sm); border-radius: var(--border-radius-sm); font-size: 0.8rem; font-weight: 600;">Coding Skills</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Toy 3 -->
+                        <div class="card toy-card" style="min-width: 280px;">
+                            <div class="card-image" style="background: linear-gradient(135deg, var(--primary-yellow), var(--secondary-yellow)); display: flex; align-items: center; justify-content: center; height: 200px;">
+                                <i class="fas fa-palette" style="font-size: 4rem; color: white;"></i>
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title">Art Creation Kits</h3>
+                                <p class="card-description">
+                                    Sparks creativity and fine motor development through painting, drawing, and craft activities with safe materials.
+                                </p>
+                                <div style="margin-top: var(--spacing-sm);">
+                                    <span style="background: var(--secondary-yellow); color: var(--darker-gray); padding: var(--spacing-xs) var(--spacing-sm); border-radius: var(--border-radius-sm); font-size: 0.8rem; font-weight: 600;">Creative Arts</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Toy 4 -->
+                        <div class="card toy-card" style="min-width: 280px;">
+                            <div class="card-image" style="background: linear-gradient(135deg, var(--primary-pink), var(--secondary-pink)); display: flex; align-items: center; justify-content: center; height: 200px;">
+                                <i class="fas fa-music" style="font-size: 4rem; color: white;"></i>
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title">Musical Instruments</h3>
+                                <p class="card-description">
+                                    Develops rhythm, coordination, and auditory skills through hands-on musical exploration and instrument play.
+                                </p>
+                                <div style="margin-top: var(--spacing-sm);">
+                                    <span style="background: var(--secondary-pink); color: var(--primary-pink); padding: var(--spacing-xs) var(--spacing-sm); border-radius: var(--border-radius-sm); font-size: 0.8rem; font-weight: 600;">Music & Rhythm</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Toy 5 -->
+                        <div class="card toy-card" style="min-width: 280px;">
+                            <div class="card-image" style="background: linear-gradient(135deg, var(--primary-purple), var(--secondary-purple)); display: flex; align-items: center; justify-content: center; height: 200px;">
+                                <i class="fas fa-microscope" style="font-size: 4rem; color: white;"></i>
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title">Science Experiment Kits</h3>
+                                <p class="card-description">
+                                    Fosters curiosity and scientific thinking through safe, hands-on experiments and observation activities.
+                                </p>
+                                <div style="margin-top: var(--spacing-sm);">
+                                    <span style="background: var(--secondary-purple); color: var(--primary-purple); padding: var(--spacing-xs) var(--spacing-sm); border-radius: var(--border-radius-sm); font-size: 0.8rem; font-weight: 600;">Science Discovery</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Toy 6 -->
+                        <div class="card toy-card" style="min-width: 280px;">
+                            <div class="card-image" style="background: linear-gradient(135deg, var(--primary-green), var(--primary-blue)); display: flex; align-items: center; justify-content: center; height: 200px;">
+                                <i class="fas fa-language" style="font-size: 4rem; color: white;"></i>
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title">Language Development Toys</h3>
+                                <p class="card-description">
+                                    Enhances vocabulary, communication skills, and language comprehension through interactive word and story games.
+                                </p>
+                                <div style="margin-top: var(--spacing-sm);">
+                                    <span style="background: var(--secondary-green); color: var(--primary-green); padding: var(--spacing-xs) var(--spacing-sm); border-radius: var(--border-radius-sm); font-size: 0.8rem; font-weight: 600;">Language Skills</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Toy 7 -->
+                        <div class="card toy-card" style="min-width: 280px;">
+                            <div class="card-image" style="background: linear-gradient(135deg, var(--primary-yellow), var(--primary-pink)); display: flex; align-items: center; justify-content: center; height: 200px;">
+                                <i class="fas fa-balance-scale" style="font-size: 4rem; color: white;"></i>
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title">Math Manipulatives</h3>
+                                <p class="card-description">
+                                    Makes abstract math concepts concrete through hands-on counting, sorting, and measurement activities.
+                                </p>
+                                <div style="margin-top: var(--spacing-sm);">
+                                    <span style="background: var(--secondary-yellow); color: var(--darker-gray); padding: var(--spacing-xs) var(--spacing-sm); border-radius: var(--border-radius-sm); font-size: 0.8rem; font-weight: 600;">Math Concepts</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Toy 8 -->
+                        <div class="card toy-card" style="min-width: 280px;">
+                            <div class="card-image" style="background: linear-gradient(135deg, var(--primary-purple), var(--primary-green)); display: flex; align-items: center; justify-content: center; height: 200px;">
+                                <i class="fas fa-users" style="font-size: 4rem; color: white;"></i>
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title">Social Skills Games</h3>
+                                <p class="card-description">
+                                    Teaches cooperation, turn-taking, and social interaction through collaborative play and group activities.
+                                </p>
+                                <div style="margin-top: var(--spacing-sm);">
+                                    <span style="background: var(--secondary-purple); color: var(--primary-purple); padding: var(--spacing-xs) var(--spacing-sm); border-radius: var(--border-radius-sm); font-size: 0.8rem; font-weight: 600;">Social Development</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Navigation Buttons -->
+                    <button class="carousel-btn carousel-prev" id="carousel-prev" style="position: absolute; left: -20px; top: 50%; transform: translateY(-50%); background: var(--primary-blue); color: white; border: none; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; box-shadow: var(--shadow-md); z-index: 2;">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="carousel-btn carousel-next" id="carousel-next" style="position: absolute; right: -20px; top: 50%; transform: translateY(-50%); background: var(--primary-blue); color: white; border: none; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; box-shadow: var(--shadow-md); z-index: 2;">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Toy Categories -->
+        <section class="toy-categories section" style="background: var(--light-gray);">
+            <div class="container">
+                <h2 style="text-align: center; color: var(--darker-gray); margin-bottom: var(--spacing-xl);">
+                    Educational Toy Categories
+                </h2>
+
+                <div class="grid grid-2" style="gap: var(--spacing-xl);">
+                    <!-- STEM Toys -->
+                    <div style="background: linear-gradient(135deg, var(--secondary-blue), var(--secondary-green)); padding: var(--spacing-xl); border-radius: var(--border-radius-lg); box-shadow: var(--shadow-md);">
+                        <div style="display: flex; align-items: center; margin-bottom: var(--spacing-lg);">
+                            <div style="width: 60px; height: 60px; background: var(--primary-blue); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: var(--spacing-md);">
+                                <i class="fas fa-flask" style="color: white; font-size: 1.5rem;"></i>
+                            </div>
+                            <div>
+                                <h3 style="color: var(--darker-gray); margin: 0;">STEM Toys</h3>
+                                <p style="color: var(--dark-gray); margin: var(--spacing-xs) 0 0 0; font-size: 0.9rem;">Science, Technology, Engineering, Mathematics</p>
+                            </div>
+                        </div>
+                        <ul style="color: var(--dark-gray); line-height: 1.6;">
+                            <li>Building and construction sets</li>
+                            <li>Coding and robotics kits</li>
+                            <li>Simple machines and mechanisms</li>
+                            <li>Problem-solving puzzles</li>
+                        </ul>
+                    </div>
+
+                    <!-- Creative Arts -->
+                    <div style="background: linear-gradient(135deg, var(--secondary-yellow), var(--secondary-pink)); padding: var(--spacing-xl); border-radius: var(--border-radius-lg); box-shadow: var(--shadow-md);">
+                        <div style="display: flex; align-items: center; margin-bottom: var(--spacing-lg);">
+                            <div style="width: 60px; height: 60px; background: var(--primary-yellow); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: var(--spacing-md);">
+                                <i class="fas fa-paint-brush" style="color: white; font-size: 1.5rem;"></i>
+                            </div>
+                            <div>
+                                <h3 style="color: var(--darker-gray); margin: 0;">Creative Arts</h3>
+                                <p style="color: var(--dark-gray); margin: var(--spacing-xs) 0 0 0; font-size: 0.9rem;">Imagination and artistic expression</p>
+                            </div>
+                        </div>
+                        <ul style="color: var(--dark-gray); line-height: 1.6;">
+                            <li>Art supplies and craft kits</li>
+                            <li>Musical instruments</li>
+                            <li>Role-playing and pretend play</li>
+                            <li>Color and shape exploration</li>
+                        </ul>
+                    </div>
+
+                    <!-- Cognitive Development -->
+                    <div style="background: linear-gradient(135deg, var(--secondary-purple), var(--secondary-blue)); padding: var(--spacing-xl); border-radius: var(--border-radius-lg); box-shadow: var(--shadow-md);">
+                        <div style="display: flex; align-items: center; margin-bottom: var(--spacing-lg);">
+                            <div style="width: 60px; height: 60px; background: var(--primary-purple); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: var(--spacing-md);">
+                                <i class="fas fa-brain" style="color: white; font-size: 1.5rem;"></i>
+                            </div>
+                            <div>
+                                <h3 style="color: var(--darker-gray); margin: 0;">Cognitive Development</h3>
+                                <p style="color: var(--dark-gray); margin: var(--spacing-xs) 0 0 0; font-size: 0.9rem;">Thinking, reasoning, and memory skills</p>
+                            </div>
+                        </div>
+                        <ul style="color: var(--dark-gray); line-height: 1.6;">
+                            <li>Memory and matching games</li>
+                            <li>Pattern recognition activities</li>
+                            <li>Logic and sequencing toys</li>
+                            <li>Language development tools</li>
+                        </ul>
+                    </div>
+
+                    <!-- Physical Development -->
+                    <div style="background: linear-gradient(135deg, var(--secondary-green), var(--secondary-yellow)); padding: var(--spacing-xl); border-radius: var(--border-radius-lg); box-shadow: var(--shadow-md);">
+                        <div style="display: flex; align-items: center; margin-bottom: var(--spacing-lg);">
+                            <div style="width: 60px; height: 60px; background: var(--primary-green); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: var(--spacing-md);">
+                                <i class="fas fa-running" style="color: white; font-size: 1.5rem;"></i>
+                            </div>
+                            <div>
+                                <h3 style="color: var(--darker-gray); margin: 0;">Physical Development</h3>
+                                <p style="color: var(--dark-gray); margin: var(--spacing-xs) 0 0 0; font-size: 0.9rem;">Motor skills and coordination</p>
+                            </div>
+                        </div>
+                        <ul style="color: var(--dark-gray); line-height: 1.6;">
+                            <li>Fine motor skill activities</li>
+                            <li>Gross motor development toys</li>
+                            <li>Balance and coordination games</li>
+                            <li>Sensory exploration tools</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Educational Toys -->
+        <section class="benefits-section section" style="background: var(--white);">
+            <div class="container">
+                <h2 style="text-align: center; color: var(--darker-gray); margin-bottom: var(--spacing-xl);">
+                    Why Choose Educational Toys?
+                </h2>
+
+                <div class="grid grid-3" style="gap: var(--spacing-lg);">
+                    <div style="text-align: center; padding: var(--spacing-lg);">
+                        <div style="width: 80px; height: 80px; background: linear-gradient(135deg, var(--primary-blue), var(--primary-purple)); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto var(--spacing-md);">
+                            <i class="fas fa-brain" style="color: white; font-size: 2rem;"></i>
+                        </div>
+                        <h3 style="color: var(--darker-gray); margin-bottom: var(--spacing-sm);">Brain Development</h3>
+                        <p style="color: var(--dark-gray); line-height: 1.6;">
+                            Educational toys stimulate different areas of the brain, promoting cognitive growth and neural connections.
+                        </p>
+                    </div>
+
+                    <div style="text-align: center; padding: var(--spacing-lg);">
+                        <div style="width: 80px; height: 80px; background: linear-gradient(135deg, var(--primary-green), var(--primary-yellow)); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto var(--spacing-md);">
+                            <i class="fas fa-heart" style="color: white; font-size: 2rem;"></i>
+                        </div>
+                        <h3 style="color: var(--darker-gray); margin-bottom: var(--spacing-sm);">Emotional Growth</h3>
+                        <p style="color: var(--dark-gray); line-height: 1.6;">
+                            Through play, children learn to express emotions, develop empathy, and build social skills.
+                        </p>
+                    </div>
+
+                    <div style="text-align: center; padding: var(--spacing-lg);">
+                        <div style="width: 80px; height: 80px; background: linear-gradient(135deg, var(--primary-pink), var(--primary-purple)); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto var(--spacing-md);">
+                            <i class="fas fa-users" style="color: white; font-size: 2rem;"></i>
+                        </div>
+                        <h3 style="color: var(--darker-gray); margin-bottom: var(--spacing-sm);">Social Learning</h3>
+                        <p style="color: var(--dark-gray); line-height: 1.6;">
+                            Interactive toys encourage cooperation, communication, and collaborative problem-solving.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="footer-logo-icon">A</div>
+                        <span>ActWitty Learnings LLP</span>
+                    </div>
+                    <p class="footer-description">
+                        Empowering young minds through innovative educational solutions.
+                        Creating joyful learning experiences for children, parents, and educators worldwide.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="washable-books.html">Washable Books</a></li>
+                        <li><a href="write-wipe-books.html">Write & Wipe Books</a></li>
+                        <li><a href="teaching-materials.html">Teaching Materials</a></li>
+                        <li><a href="e-learning.html">E-Learning</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="design-development.html">Design & Development</a></li>
+                        <li><a href="content-rights.html">Content Rights Sale</a></li>
+                        <li><a href="#custom-publishing">Custom Publishing</a></li>
+                        <li><a href="#educational-consulting">Educational Consulting</a></li>
+                        <li><a href="#digital-solutions">Digital Solutions</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 9810989818</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 9717991762</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>actwitty.in@gmail.com</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>204 Supreme enclave Mayur Vihar Phase 1 Delhi 110091 India</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Mon - Sat: 9:00 AM - 6:00 PM</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>
+                    &copy; 2025 ActWitty Learnings LLP. All rights reserved. |
+                    <a href="#privacy-policy">Privacy Policy</a> |
+                    <a href="#terms-of-service">Terms of Service</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="../assets/js/main.js"></script>
+    <script>
+        // Carousel functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const track = document.getElementById('carousel-track');
+            const prevBtn = document.getElementById('carousel-prev');
+            const nextBtn = document.getElementById('carousel-next');
+
+            if (track && prevBtn && nextBtn) {
+                let currentIndex = 0;
+                const cardWidth = 280 + 16; // card width + gap
+                const visibleCards = window.innerWidth > 768 ? 3 : 1;
+                const maxIndex = Math.max(0, track.children.length - visibleCards);
+
+                function updateCarousel() {
+                    const translateX = -currentIndex * cardWidth;
+                    track.style.transform = `translateX(${translateX}px)`;
+                }
+
+                prevBtn.addEventListener('click', function() {
+                    if (currentIndex > 0) {
+                        currentIndex--;
+                        updateCarousel();
+                    }
+                });
+
+                nextBtn.addEventListener('click', function() {
+                    if (currentIndex < maxIndex) {
+                        currentIndex++;
+                        updateCarousel();
+                    }
+                });
+
+                // Update on window resize
+                window.addEventListener('resize', function() {
+                    const newVisibleCards = window.innerWidth > 768 ? 3 : 1;
+                    const newMaxIndex = Math.max(0, track.children.length - newVisibleCards);
+                    currentIndex = Math.min(currentIndex, newMaxIndex);
+                    updateCarousel();
+                });
+            }
+        });
+    </script>
+</body>
+</html>
