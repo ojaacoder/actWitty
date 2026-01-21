@@ -33,8 +33,12 @@
   color: var(--primary-blue);
 }
 
-.header.sticky .logo {
-  color: var(--darker-gray);
+.header.sticky .mobile-menu-toggle span {
+  background: var(--darker-gray);
+}
+
+.header.sticky .mobile-menu-toggle:hover {
+  background: rgba(0, 0, 0, 0.05);
 }
 
 @keyframes slideDown {
@@ -155,7 +159,7 @@
 @media (max-width: 768px) {
   .nav-list {
     position: fixed;
-    top: 100%;
+    top: 0; /* Start at the top of the viewport */
     left: 0;
     right: 0;
     background: var(--white);
@@ -163,16 +167,16 @@
     gap: 0;
     padding: var(--spacing-lg) 0;
     box-shadow: var(--shadow-lg);
-    transform: translateY(-100%);
+    transform: translateY(-100%); /* Initially hide it above the viewport */
     opacity: 0;
     visibility: hidden;
     transition: all var(--transition-normal);
-    z-index: 999;
+    z-index: 1001; /* Ensure it's above the header */
     border-radius: 0 0 var(--border-radius-lg) var(--border-radius-lg);
   }
 
   .nav-list.active {
-    transform: translateY(0);
+    transform: translateY(0); /* Let JS control the top position */
     opacity: 1;
     visibility: visible;
   }

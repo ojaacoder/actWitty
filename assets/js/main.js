@@ -10,6 +10,11 @@ document.addEventListener('DOMContentLoaded', function() {
         mobileMenuToggle.addEventListener('click', function() {
             navList.classList.toggle('active');
             mobileMenuToggle.classList.toggle('active');
+            if (navList.classList.contains('active')) {
+                navList.style.top = `${header.offsetHeight}px`;
+            } else {
+                navList.style.top = ''; // Reset top when inactive
+            }
         });
 
         // Close mobile menu when clicking on a link
